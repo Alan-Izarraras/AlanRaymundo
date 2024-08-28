@@ -51,6 +51,11 @@ section {
   color: #03262a ;
 }
 
+img {
+  width: 60%; /* sets image width to 50% of parent element's width */
+  height: auto; /* maintains aspect ratio */
+}
+
 footer {
 	padding: 1em;
 	text-align: center;
