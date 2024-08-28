@@ -1,0 +1,67 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ff9953;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  padding: 1em;
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto; /* Center element horizontally */
+  margin-bottom: 40px;
+  margin-top: 50px;
+  border: 10px solid #337ab7;
+  background-color: #93b68a;
+}
+
+main > section {
+  margin-bottom: 50px;
+  border-bottom: 5px solid #ff9953;
+}
+
+.art-container {
+  /* Add some basic styling to the container */
+  max-width: 1300px;
+  margin: 0 auto; /* Center element horizontally */
+  padding: 100px;
+  background-color: #93b68a;
+  border: 10px solid #337ab7;
+  border-collapse: separate; /* Separate borders */
+  text-align: center; /* Center text horizontally */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.art-container img {
+  margin: 50px; /* Add a 20px margin around each image */
+  margin-bottom: 10px
+}
+
+.art-container img {
+  margin: 10px; /* Add a 20px margin around each image */
+  margin-bottom: 50px
+}
+
+
+.art-entry img {
+  /* Style the image */
+  width: 100%;
+  height: 200px; /* Set a fixed height for the images */
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.art-entry .piece-name {
+  /* Style the piece name */
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.art-entry .piece-number {
+  /* Style the piece number */
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 10px;
+}
