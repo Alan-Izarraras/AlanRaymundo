@@ -38,6 +38,13 @@ main > section {
   border-bottom: 5px solid #ff9953;
 }
 
+.logo {
+  width: 90px;
+  height: 80px;
+  vertical-align: middle;
+  opacity: 0.6;
+}
+
 section {
   display: block; /* Add this line */
   background-color: #7fc5c7;
