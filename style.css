@@ -1,6 +1,6 @@
 body {
 	font-family: Arial, sans-serif;
-	background-color: #93b68a;
+	background-color: #EEEDEB;
 	margin: 0;
 	padding: 0;
 }
@@ -35,7 +35,7 @@ main {
 
 main > section {
   margin-bottom: 50px;
-  border-bottom: 5px solid #ff9953;
+  border-bottom: 5px solid #FFC94A;
 }
 
 .logo {
@@ -47,11 +47,11 @@ main > section {
 
 section {
   display: block; /* Add this line */
-  background-color: #7fc5c7;
+  background-color: #CAF4FF;
   padding: 1em;
   border-collapse: separate; /* Separate borders */
   border-spacing: 20px; /* Add space between borders */
-  border: 5px solid #ff9953;
+  border: 5px solid #FFC94A;
   text-align: center; /* Center text horizontally */
   margin: 0 auto; /* Center element horizontally */
   width: 40%; /* Set a width to center the element */
