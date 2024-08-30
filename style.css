@@ -1,6 +1,21 @@
+/* Importing Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Hind+Vadodara:wght@300;400;500;600;700&family=Pavanam&display=swap');
+
+/* Applying fonts to elements */
+h1 {
+  font-family: 'Didact Gothic', sans-serif;
+}
+
+h2 {
+  font-family: 'Palanquin', sans-serif;
+  color: #333A73;
+}
+
 body {
-	font-family: Arial, sans-serif;
+	font-family: 'Biryani', sans-serif;
+  font-size: 20px; /* or any other size you prefer */
 	background-color: #EEEDEB;
+  color: #E76F51;
 	margin: 0;
 	padding: 0;
 }
@@ -30,7 +45,7 @@ main {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	padding: 2em;
+	padding: 1em;
 }
 
 main > section {
@@ -56,6 +71,17 @@ section {
   margin: 0 auto; /* Center element horizontally */
   width: 40%; /* Set a width to center the element */
   color: #03262a ;
+}
+
+.justified-text {
+  text-align: center;
+  color: #2F3645;
+
+}
+
+.justified-text-2 {
+  text-align: justify;
+  color: #2F3645;
 }
 
 img {
