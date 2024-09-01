@@ -14,7 +14,7 @@ h2 {
 body {
 	font-family: 'Biryani', sans-serif;
   font-size: 20px; /* or any other size you prefer */
-	background-color: #EEEDEB;
+	background-color: #EEEDEB; /* other good bckgrnd colors: F7EFE5, E7E8D8 */
   color: #E76F51;
 	margin: 0;
 	padding: 0;
@@ -82,6 +82,13 @@ section {
 .justified-text-2 {
   text-align: justify;
   color: #2F3645;
+}
+
+.embedded-images {
+  display: block; /* or display: inline-block; depending on your layout */
+  margin: 0 auto; /* center the image */
+  max-width: 20%; /* ensure image doesn't overflow the container */
+  height: auto; /* maintain aspect ratio */
 }
 
 img {
