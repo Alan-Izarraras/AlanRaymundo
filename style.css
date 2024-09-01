@@ -69,7 +69,7 @@ section {
   border: 5px solid #FFC94A;
   text-align: center; /* Center text horizontally */
   margin: 0 auto; /* Center element horizontally */
-  width: 40%; /* Set a width to center the element */
+  width: 60%; /* Set a width to center the element */
   color: #03262a ;
 }
 
@@ -85,7 +85,7 @@ section {
 }
 
 img {
-  width: 60%; /* sets image width to 50% of parent element's width */
+  width: 40%; /* sets image width to 50% of parent element's width */
   height: auto; /* maintains aspect ratio */
 }
 
