@@ -12,44 +12,44 @@ h2 {
 }
 
 body {
-	font-family: 'Biryani', sans-serif;
+  font-family: 'Biryani', sans-serif;
   font-size: 20px; /* or any other size you prefer */
-	background-color: #EEEDEB; /* other good bckgrnd colors: F7EFE5, E7E8D8 */
+  background-color: #EEEDEB; /* other good bckgrnd colors: F7EFE5, E7E8D8 */
   color: #E76F51;
-	margin: 0;
-	padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 header {
-	padding: 1em;
-	text-align: center;
+  padding: 1em;
+  text-align: center;
 }
 
 nav ul {
-	list-style: none;
-	margin: 0;
-	padding: 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 nav li {
-	display: inline-block;
-	margin-right: 20px;
+  display: inline-block;
+  margin-right: 20px;
 }
 
 nav a {
-	color: #337ab7;
-	text-decoration: none;
+  color: #337ab7;
+  text-decoration: none;
 }
 
 main {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	padding: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1em;
 }
 
 main > section {
-  margin-bottom: 50px;
+  margin-bottom: 300px;
   border-bottom: 5px solid #FFC94A;
 }
 
@@ -62,7 +62,7 @@ main > section {
 
 section {
   display: block; /* Add this line */
-  background-color: #CAF4FF;
+  background-color: #E0F4FF; /* Separate borders */
   padding: 1em;
   border-collapse: separate; /* Separate borders */
   border-spacing: 20px; /* Add space between borders */
@@ -75,13 +75,13 @@ section {
 
 .justified-text {
   text-align: center;
-  color: #2F3645;
+  color: #000000;
 
 }
 
 .justified-text-2 {
   text-align: justify;
-  color: #2F3645;
+  color: #000000;
 }
 
 .embedded-images {
@@ -97,9 +97,9 @@ img {
 }
 
 footer {
-	padding: 1em;
-	text-align: center;
-	clear: both;
+  padding: 1em;
+  text-align: center;
+  clear: both;
 }
 
 .spacer {
